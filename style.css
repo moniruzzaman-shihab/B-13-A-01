@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+}
+nav button{
+    border-radius: 4px;
+    padding: 12px 16px;
+    background-color: #30B868;
+    border: none;
+    color: white;
+}
