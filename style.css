@@ -20,3 +20,189 @@ nav button{
     border: none;
     color: white;
 }
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 50px; */
+}
+.early-access {
+   
+    padding: 8px 12px;
+    border-radius: 1000px;
+    border: none;
+    margin-top: 100px;
+ 
+}
+.hero .coloring-txt-one{
+    font-size: 72px;
+    font-weight:700;
+    line-height: 84px;
+    color: white;
+}
+.coloring-txt{
+    font-size: 72px;
+    font-weight:700;
+    line-height: 84px;
+    color:#30B868;
+}
+.hero p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.two-btn .btn-one{
+    background-color:#30B868 ;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+   
+}
+.btn-div{
+    display: flex;
+    vertical-align: middle;
+    gap: 4px;
+}
+.btn-div img{
+    width: 15px;
+    height: 15px;
+}
+.btn-two{
+    padding: 10px 16px;
+    border: none;
+    margin-left: 16px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+}
+.hero{
+    background: url(assets/hero-bg.png);
+}
+.two-btn{
+    padding-bottom: 150px;
+    padding-top: 30px;
+}
+
+.early-access div {
+    display: flex;
+    gap: 10px;
+}
+  
+.early-access div p{
+     color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+}
+.card h3{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 16px;
+    font-size: 48px;
+}
+.card-p{
+     text-align: center;
+     margin-bottom: 16px;
+}
+  
+.card .card-info img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: orangered;
+}
+.card-info div{
+    border-radius: 8px;
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+background: rgba(255, 255, 255, 1);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 24px;
+gap: 16px;
+}
+.card-info{
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    gap: 44px;
+}
+.image-full{
+    width: 600px;
+    
+}
+.full-image{
+    width: 100%;
+  
+}
+.tick div img{
+    width: 15px;
+    height: 15px;
+}
+.tick div{
+    display: flex;
+    gap: 5px;
+}
+.image-card{
+    display: flex;
+    padding: 120px;
+    gap: 60px;
+    align-items: center;
+}
+.btn-one-again{
+    background-color:#30B868 ;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+   
+}
+.btn-div-again{
+    display: flex;
+    vertical-align: middle;
+    gap: 4px;
+}
+.btn-div-again img{
+    width: 15px;
+    height: 15px;
+}
+.early-access-two{
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: rgba(247, 246, 242, 1);
+    display: flex;
+    flex-direction: column;
+
+justify-content: center;
+align-items: center;
+padding: 80px 40px;
+gap: 16px;
+}
+.early-access-two button{
+    margin-top: 26px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: white;
+}
+.footer .sl{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.footer-bottom{
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+    color: white;
+}
+footer{
+    background-color: rgba(0, 25, 49, 1);
+}
