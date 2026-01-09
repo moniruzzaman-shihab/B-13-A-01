@@ -1,76 +1,105 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-nav{
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 120px;
     align-items: center;
 }
-nav ul{
+
+nav ul {
     display: flex;
     list-style: none;
     gap: 34px;
 }
-nav button{
+
+nav button {
     border-radius: 4px;
     padding: 12px 16px;
     background-color: #30B868;
     border: none;
     color: white;
 }
-.hero{
+
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     /* gap: 50px; */
 }
+
+.btn-two img,
+span {
+    padding-top: 1px;
+    vertical-align: middle;
+}
+
+.btn-two img {
+    margin-right: 5px;
+}
+
 .early-access {
-   
-    padding: 8px 12px;
+     padding: 8px 12px;
     border-radius: 1000px;
     border: none;
     margin-top: 100px;
- 
 }
-.hero .coloring-txt-one{
+
+.hero .coloring-txt-one {
     font-size: 72px;
-    font-weight:700;
+    font-weight: 700;
     line-height: 84px;
     color: white;
 }
-.coloring-txt{
+
+.coloring-txt {
     font-size: 72px;
-    font-weight:700;
+    font-weight: 700;
     line-height: 84px;
-    color:#30B868;
+    color: #30B868;
 }
-.hero p{
+
+.hero p {
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
+    /* margin-top: 10px; */
 }
-.two-btn .btn-one{
-    background-color:#30B868 ;
+
+.two-btn .btn-one {
+    background-color: #30B868;
     padding: 10px 16px;
     border: none;
     border-radius: 4px;
     color: white;
-   
 }
-.btn-div{
+
+.btn-div {
     display: flex;
     vertical-align: middle;
     gap: 4px;
 }
-.btn-div img{
+
+.btn-div img {
     width: 15px;
     height: 15px;
 }
-.btn-two{
-    padding: 10px 16px;
+
+.early-access div img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-two {
+    padding: 6px 16px;
     border: none;
     margin-left: 16px;
     background: transparent;
@@ -78,10 +107,12 @@ nav button{
     color: white;
     border-radius: 4px;
 }
-.hero{
+
+.hero {
     background: url(assets/hero-bg.png);
 }
-.two-btn{
+
+.two-btn {
     padding-bottom: 150px;
     padding-top: 30px;
 }
@@ -90,119 +121,243 @@ nav button{
     display: flex;
     gap: 10px;
 }
-  
-.early-access div p{
-     color: #30B868;
+
+.early-access div p {
+    color: #30B868;
     font-size: 16px;
     font-weight: 500;
 }
-.card h3{
+
+.card h3 {
     text-align: center;
     padding-top: 50px;
     margin-bottom: 16px;
     font-size: 48px;
 }
-.card-p{
-     text-align: center;
-     margin-bottom: 16px;
+
+.card-p {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 44px;
 }
-  
-.card .card-info img{
+
+.card .card-info img {
     width: 32px;
     height: 32px;
     border-radius: 50%;
     background-color: orangered;
+    padding: 10px;
 }
-.card-info div{
-    border-radius: 8px;
-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
-background: rgba(255, 255, 255, 1);
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 24px;
-gap: 16px;
+
+.card-info h4 {
+    font-style: Semi Bold;
+    font-size: 20px;
+    font-weight: 600;
 }
-.card-info{
+
+.card-info div h4,
+p {
+    text-align: center;
+}
+
+.card-info .card-bottom-p {
+    color: #627382;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.card-info div {
+    border-radius: 8px 8px 0 0;
+    background: #fffdfd;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.08); 
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+}
+
+
+
+.card-info {
     display: flex;
     padding-left: 120px;
     padding-right: 120px;
     gap: 44px;
 }
-.image-full{
+
+.image-full {
     width: 600px;
-    
 }
-.full-image{
+
+.full-image {
     width: 100%;
-  
 }
-.tick div img{
-    width: 15px;
-    height: 15px;
+
+.tick div img {
+    width: 20px;
+    height: 20px;
 }
-.tick div{
+
+.tick div {
     display: flex;
-    gap: 5px;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
 }
-.image-card{
+
+.tick {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tick div p {
+    font-weight: 500;
+}
+
+.image-card {
     display: flex;
     padding: 120px;
     gap: 60px;
     align-items: center;
 }
-.btn-one-again{
-    background-color:#30B868 ;
+
+.img-four {
+    margin-bottom: 22px;
+}
+
+.btn-one-again {
+    background-color: #30B868;
     padding: 10px 16px;
     border: none;
     border-radius: 4px;
     color: white;
-   
+
 }
-.btn-div-again{
+
+.card {
+    background-color: #fdfcfc;
+
+}
+
+.img-p,
+.img-h,
+.img-pp {
+    text-align: left;
+}
+
+.img-p {
+    font-size: 16px;
+    color: #2db164;
+    margin-bottom: 16px;
+
+}
+
+.img-h {
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.img-h p {
+    text-align: left;
+}
+
+.img-pp,
+.img-ppp,
+.img-pppp {
+    text-align: left;
+    color: #627382;
+    font-size: 15px;
+}
+
+.btn-div-again {
     display: flex;
     vertical-align: middle;
     gap: 4px;
 }
-.btn-div-again img{
+
+.btn-div-again img {
     width: 15px;
     height: 15px;
 }
-.early-access-two{
+
+.early-access-two h3 {
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.early-access-two {
     margin-left: 120px;
     margin-right: 120px;
     background-color: rgba(247, 246, 242, 1);
     display: flex;
     flex-direction: column;
-
-justify-content: center;
-align-items: center;
-padding: 80px 40px;
-gap: 16px;
+     justify-content: center;
+    align-items: center;
+    padding: 80px 40px;
+    gap: 12px;
 }
-.early-access-two button{
+
+.early-access-two p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+}
+
+.early-access-two button {
     margin-top: 26px;
 }
-.footer-top{
+
+.footer-top {
+
     display: flex;
     justify-content: space-between;
     margin-left: 120px;
     margin-right: 120px;
     color: white;
+
 }
-.footer .sl{
+
+.logo img {
+    margin-top: 100px;
+}
+
+.footer .sl {
     display: flex;
     flex-direction: column;
     gap: 10px;
     color: white;
+    margin-top: 100px;
 }
-.footer-bottom{
+
+.footer-bottom {
     margin-left: 120px;
     margin-right: 120px;
     text-align: center;
     color: white;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgb(94, 88, 88);
 }
-footer{
+
+.foot {
+    padding-top: 40px;
+}
+
+footer {
     background-color: rgba(0, 25, 49, 1);
+    margin-top: 100px;
+
 }
