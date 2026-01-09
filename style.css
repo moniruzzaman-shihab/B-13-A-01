@@ -18,6 +18,7 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 34px;
+    font-weight: 600;
 }
 
 nav button {
@@ -68,9 +69,9 @@ span {
 
 .hero p {
     color: rgba(255, 255, 255, 1);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 34px;
     /* margin-top: 10px; */
 }
 
@@ -110,6 +111,7 @@ span {
 
 .hero {
     background: url(assets/hero-bg.png);
+    background-size:cover;
 }
 
 .two-btn {
@@ -192,7 +194,7 @@ p {
 }
 
 .image-full {
-    width: 600px;
+    width: 500px;
 }
 
 .full-image {
@@ -307,6 +309,7 @@ p {
     align-items: center;
     padding: 80px 40px;
     gap: 12px;
+    border-radius: 4px;
 }
 
 .early-access-two p {
