@@ -6,6 +6,9 @@
 .open-sans {
     font-family: "Open Sans", sans-serif;
 }
+button{
+    cursor: pointer;
+}
 
 nav {
     display: flex;
@@ -122,6 +125,7 @@ span {
 .early-access div {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .early-access div p {
